@@ -76,13 +76,16 @@ class Slider:
         logger.info("Generated URL: %s", full_url)
         return {"ui": {"text": full_url}, "result": (full_url,)}
 
+from .palette import RandomPalette
 
 NODE_CLASS_MAPPINGS = {
-    "slider": Slider
+    "Shareable Image Slider": Slider,
+    "Random Palette": RandomPalette
 }
 
 NODE_DISPLAY_NAMES_MAPPINGS = {
-    "slider": "Image Slider Generation (new)"
+    "Shareable Image Slider": "Shareable Image Slider",
+    "Random Palette": "Random Palette"
 }
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAMES_MAPPINGS']
