@@ -1,6 +1,29 @@
 # Comfy-InterestingPixels
 
-# ImageSlider node
-This node generates a shareable link to an image slider. It automatically uploads the images to the server and generates a URL. 
-Please beware: the images are publicly accessible and can be used in any context.
-Hosted images are deleted after 24 hours.
+A collection of utility nodes for ComfyUI.
+
+## Nodes
+
+### ImageSlider
+Generates a shareable link to compare two images side-by-side using an interactive slider.
+
+**Features:**
+- Automatically uploads images to server and generates URL
+- Interactive slider for easy comparison
+- Shareable link for collaboration
+
+**Note:** Uploaded images are:
+- Publicly accessible 
+- Automatically deleted after 24 hours
+- Can be used in any context
+
+### RandomPalette
+Generates random color palettes from a curated list of predefined options.
+![Palette Demo](assets/palette.gif)
+
+
+
+**Features:**
+- Pre-selected harmonious color combinations
+- Random selection for inspiration
+- Easy integration into workflows
