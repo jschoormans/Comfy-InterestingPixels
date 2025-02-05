@@ -6,7 +6,7 @@ A collection of utility nodes for ComfyUI.
 
 ### ImageSlider
 Generates a shareable link to compare two images side-by-side using an interactive slider.
-![ImageSlider Demo](assets/imageslider.gif)
+![ImageSlider Demo](assets/slider.gif)
 
 **Features:**
 - Automatically uploads images to server and generates URL
